@@ -1,6 +1,6 @@
 ﻿namespace PracticeProject
 {
-    internal class Program
+    public class Exercise1Class
     {
         static void Main(string[] args)
         {
@@ -22,6 +22,9 @@
             Console.WriteLine(Multiply(-9, 2));     // -18
         }
 
+        /// <summary>
+        /// Takes two numbers and returns their multiplication.
+        /// </summary>
         public static int Multiply(int firstNumber, int secondNumber)
         {
             if (firstNumber == 0 || secondNumber == 0) // If any number is 0, any number * 0 = 0
