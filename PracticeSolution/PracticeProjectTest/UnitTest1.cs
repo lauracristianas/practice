@@ -18,5 +18,20 @@ namespace PracticeProjectTest
             // Assert
             Assert.Equal(expectedVal, actualVal);
         }
+
+        [Fact]
+        public void Test2()
+        {
+            // Arrange
+            int number1 = 6;
+            int number2 = 0;
+            int expectedVal = 0;
+
+            // Act
+            int actualVal = PracticeProject.Exercise1Class.Multiply(number1, number2);
+
+            // Assert
+            Assert.Equal(expectedVal, actualVal);
+        }
     }
 }
