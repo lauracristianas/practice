@@ -19,14 +19,11 @@ namespace PracticeProjectTest
             Assert.Equal(expectedVal, actualVal);
         }
 
-        [Fact]
-        public void Test2()
+        [Theory]
+        [InlineData(6, 0, 0)]
+        public void Test2(int number1, int number2, int expectedVal)
         {
             // Arrange
-            int number1 = 6;
-            int number2 = 0;
-            int expectedVal = 0;
-
             // Act
             int actualVal = PracticeProject.Exercise1Class.Multiply(number1, number2);
 
